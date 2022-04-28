@@ -4,6 +4,7 @@
     {
         Persona persona = new Persona();
         persona.ActualizacionNombreCompletado += ActualizacionNombreCompletadoHandler;
+        persona.ActualizarNombre("Matias", "Alejandro");
         Console.Read;
     }
     static void ActualizacionNombreCompletadoHandler(object? sender, ActualizacionEventArgs e)
