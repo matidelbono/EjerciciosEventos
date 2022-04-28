@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Persona
+    public class Persona
     {
         public EventHandler<ActualizacionEventArgs> ActualizacionNombreCompletado;
         private string Nombre { get; set; }

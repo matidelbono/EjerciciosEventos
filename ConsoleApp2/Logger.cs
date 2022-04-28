@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Logger
+    public class Logger
     {
-        public string ImprimirActualizacion
-    }
+        public string ImprimirActualizacion(string Nombre, string NombreNuevo)
+        {
+            Console.Writeline("El nombre fue modificado de" + Nombre , "a" + NombreNuevo);
+        }
+}
 }
